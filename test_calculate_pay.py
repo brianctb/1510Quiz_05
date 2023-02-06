@@ -21,3 +21,6 @@ class TestCalculatePay(TestCase):
     def test_regular_wage(self):
         self.assertEqual(0, calculate_pay(40, 40))
 
+    def test_regular_wage(self):
+        self.assertEqual(0, calculate_pay(39.5,5.5 ))
+
