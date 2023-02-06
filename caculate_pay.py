@@ -25,6 +25,10 @@ def calculate_pay(hours, wage):
 
 
 def main():
+    """
+    Drives the program.
+    :return:
+    """
     print("This is Quiz_05")
 
 
