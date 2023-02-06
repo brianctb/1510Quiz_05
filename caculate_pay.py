@@ -1,11 +1,17 @@
 def calculate_pay(hours, wage):
     """
     Return an employee’s weekly pay
-    :param hours: Any integer or float
-    :param wage: Any integer or float
+    :param hours: Any real numbers
+    :param wage: Any real numbers
     :precondition: hours and wage must be an integer or float
     :postcondition: calculates the correct employee's weekly pay
-    :return: Employee's weekly pay as a float number
+    :return: Employee's weekly pay as a real number
+    >>> calculate_pay(0, 0)
+    0
+    >>> calculate_pay(35, 35)
+    1225
+    >>> calculate_pay(45, 20)
+    1000
     """
     if hours <= 0:
         return 0
@@ -18,7 +24,7 @@ def calculate_pay(hours, wage):
 
 
 def main():
-    print(calculate_pay(60, 20))
+    print("This is Quiz_05")
 
 
 if __name__ == "__main__":
