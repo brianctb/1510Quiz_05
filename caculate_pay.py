@@ -11,7 +11,7 @@ def calculate_pay(hours, wage):
     0
     >>> calculate_pay(35, 35)
     1225
-    >>> calculate_pay(45, 20)
+    >>> calculate_pay(45, 20.0)
     1000
     """
     if hours <= 0:
