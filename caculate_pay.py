@@ -4,7 +4,7 @@ def calculate_pay(hours, wage):
 
     :param hours: Any real numbers
     :param wage: Any real numbers
-    :precondition: hours and wage must be an integer or float
+    :precondition: hours and wage must be real numbers
     :postcondition: calculates the correct employee's weekly pay
     :return: Employee's weekly pay as a real number
     >>> calculate_pay(0, 0)
