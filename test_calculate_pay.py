@@ -24,7 +24,7 @@ class TestCalculatePay(TestCase):
     def test_regular_wage(self):
         self.assertEqual(217.25, calculate_pay(39.5, 5.5))  # testing regular hours
 
-    def test_regular_wage(self):
+    def test_upper_bound_regular_wage(self):
         self.assertEqual(222, calculate_pay(40, 5.55))  # testing upper bound regular hours
 
     def test_overtime(self):
