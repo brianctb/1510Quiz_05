@@ -1,9 +1,11 @@
 def calculate_pay(hours, wage):
     """
     Return an employee’s weekly pay
-    :param hours:
-    :param wage:
-    :return:
+    :param hours: Any integer or float
+    :param wage: Any integer or float
+    :precondition: hours and wage must be an integer or float
+    :postcondition: calculates the correct employee's weekly pay
+    :return: Employee's weekly pay as a float
     """
     if hours <= 0:
         return 0
