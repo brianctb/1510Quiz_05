@@ -10,7 +10,7 @@ def calculate_pay(hours,wage):
     elif hours <= 40:
         return hours*wage
     else:
-        return (40*wage)+((hours-40)*wage)
+        return (40*wage)+((hours-40)*(wage*2))
 
 
 
